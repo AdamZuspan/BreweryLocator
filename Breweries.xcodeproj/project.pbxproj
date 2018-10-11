@@ -12,9 +12,20 @@
 		84039B542132006B00CA4AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84039B522132006B00CA4AD9 /* Main.storyboard */; };
 		84039B562132006B00CA4AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84039B552132006B00CA4AD9 /* Assets.xcassets */; };
 		84039B592132006B00CA4AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84039B572132006B00CA4AD9 /* LaunchScreen.storyboard */; };
+		84039B692132372D00CA4AD9 /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84039B682132372D00CA4AD9 /* JsonModel.swift */; };
+		84039B6B21323B4400CA4AD9 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84039B6A21323B4400CA4AD9 /* MyTableViewCell.swift */; };
+		8472CF932137149B0015F343 /* ProjectInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472CF922137149B0015F343 /* ProjectInformation.swift */; };
+		8475706F2133AB46003D00BF /* MyMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475706E2133AB46003D00BF /* MyMapViewController.swift */; };
+		847570712133BA19003D00BF /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847570702133BA19003D00BF /* ImageViewController.swift */; };
+		847570752134988E003D00BF /* CustomMKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847570742134988E003D00BF /* CustomMKAnnotation.swift */; };
+		84B713F72136503C0038605F /* NotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B713F62136503C0038605F /* NotifyViewController.swift */; };
+		C9746B7639F65E6B30B8E470 /* Pods_Breweries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591C44D26EA62072266D9050 /* Pods_Breweries.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C3802217E9585A9018A2AD0 /* Pods-Breweries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breweries.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breweries/Pods-Breweries.release.xcconfig"; sourceTree = "<group>"; };
+		591C44D26EA62072266D9050 /* Pods_Breweries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breweries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB838145F5A53E9A08CFCE9 /* Pods-Breweries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breweries.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breweries/Pods-Breweries.debug.xcconfig"; sourceTree = "<group>"; };
 		84039B4B2132006B00CA4AD9 /* Breweries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breweries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84039B4E2132006B00CA4AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84039B502132006B00CA4AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,13 @@
 		84039B552132006B00CA4AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84039B582132006B00CA4AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84039B5A2132006B00CA4AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84039B682132372D00CA4AD9 /* JsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
+		84039B6A21323B4400CA4AD9 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		8472CF922137149B0015F343 /* ProjectInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectInformation.swift; sourceTree = "<group>"; };
+		8475706E2133AB46003D00BF /* MyMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapViewController.swift; sourceTree = "<group>"; };
+		847570702133BA19003D00BF /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		847570742134988E003D00BF /* CustomMKAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMKAnnotation.swift; sourceTree = "<group>"; };
+		84B713F62136503C0038605F /* NotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9746B7639F65E6B30B8E470 /* Pods_Breweries.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		661EEA3958D43B0BA0C2D616 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				591C44D26EA62072266D9050 /* Pods_Breweries.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84039B422132006A00CA4AD9 = {
 			isa = PBXGroup;
 			children = (
 				84039B4D2132006B00CA4AD9 /* Breweries */,
 				84039B4C2132006B00CA4AD9 /* Products */,
+				BEB5381AC20B0288C533BAE3 /* Pods */,
+				661EEA3958D43B0BA0C2D616 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,62 @@
 		84039B4D2132006B00CA4AD9 /* Breweries */ = {
 			isa = PBXGroup;
 			children = (
-				84039B4E2132006B00CA4AD9 /* AppDelegate.swift */,
-				84039B502132006B00CA4AD9 /* ViewController.swift */,
-				84039B522132006B00CA4AD9 /* Main.storyboard */,
+				8472CF922137149B0015F343 /* ProjectInformation.swift */,
+				84B713FD213652310038605F /* Delegates */,
+				84B713FC2136521C0038605F /* View */,
+				84B713F9213651E00038605F /* Model */,
+				84B713F8213651C80038605F /* Controller */,
 				84039B552132006B00CA4AD9 /* Assets.xcassets */,
-				84039B572132006B00CA4AD9 /* LaunchScreen.storyboard */,
 				84039B5A2132006B00CA4AD9 /* Info.plist */,
 			);
 			path = Breweries;
+			sourceTree = "<group>";
+		};
+		84B713F8213651C80038605F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84039B502132006B00CA4AD9 /* ViewController.swift */,
+				84B713F62136503C0038605F /* NotifyViewController.swift */,
+				8475706E2133AB46003D00BF /* MyMapViewController.swift */,
+				847570702133BA19003D00BF /* ImageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84B713F9213651E00038605F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84039B682132372D00CA4AD9 /* JsonModel.swift */,
+				847570742134988E003D00BF /* CustomMKAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84B713FC2136521C0038605F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84039B572132006B00CA4AD9 /* LaunchScreen.storyboard */,
+				84039B522132006B00CA4AD9 /* Main.storyboard */,
+				84039B6A21323B4400CA4AD9 /* MyTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84B713FD213652310038605F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				84039B4E2132006B00CA4AD9 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		BEB5381AC20B0288C533BAE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FB838145F5A53E9A08CFCE9 /* Pods-Breweries.debug.xcconfig */,
+				3C3802217E9585A9018A2AD0 /* Pods-Breweries.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84039B5D2132006B00CA4AD9 /* Build configuration list for PBXNativeTarget "Breweries" */;
 			buildPhases = (
+				2F36660839C42B343691B9D6 /* [CP] Check Pods Manifest.lock */,
 				84039B472132006B00CA4AD9 /* Sources */,
 				84039B482132006B00CA4AD9 /* Frameworks */,
 				84039B492132006B00CA4AD9 /* Resources */,
+				1723FAD4D59C92B1FEF61E7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +209,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1723FAD4D59C92B1FEF61E7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Breweries/Pods-Breweries-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlatUIKit/FlatUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlatUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breweries/Pods-Breweries-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F36660839C42B343691B9D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Breweries-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84039B472132006B00CA4AD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84039B692132372D00CA4AD9 /* JsonModel.swift in Sources */,
+				8472CF932137149B0015F343 /* ProjectInformation.swift in Sources */,
+				84039B6B21323B4400CA4AD9 /* MyTableViewCell.swift in Sources */,
 				84039B512132006B00CA4AD9 /* ViewController.swift in Sources */,
+				8475706F2133AB46003D00BF /* MyMapViewController.swift in Sources */,
+				847570752134988E003D00BF /* CustomMKAnnotation.swift in Sources */,
+				84B713F72136503C0038605F /* NotifyViewController.swift in Sources */,
+				847570712133BA19003D00BF /* ImageViewController.swift in Sources */,
 				84039B4F2132006B00CA4AD9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,11 +407,13 @@
 		};
 		84039B5E2132006B00CA4AD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FB838145F5A53E9A08CFCE9 /* Pods-Breweries.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DCN377FL7;
 				INFOPLIST_FILE = Breweries/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +427,13 @@
 		};
 		84039B5F2132006B00CA4AD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3802217E9585A9018A2AD0 /* Pods-Breweries.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DCN377FL7;
 				INFOPLIST_FILE = Breweries/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
